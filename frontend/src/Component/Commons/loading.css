@@ -1,0 +1,48 @@
+.product-container img,
+.product-container h1,
+.product-container button {
+
+  animation: shimmer 1.3s infinite;
+
+}
+
+.product-container h2 {
+  animation: shimmer 1.6s infinite;
+}
+
+.product-container p {
+  animation: shimmer 1.8s infinite;
+}
+
+.product-container1 .imager,
+.product-container1 p,
+.product-container1 span,
+.product-container1 img {
+  animation: shimmer 1.3s infinite;
+}
+
+.product-container1 h1 {
+  animation: shimmer 1.6s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: rgb(185, 185, 185);
+  }
+
+  25% {
+    background-color: rgb(180, 180, 180);
+  }
+
+  50% {
+    background-color: rgb(175, 175, 175);
+  }
+
+  75% {
+    background-color: rgb(169, 169, 169);
+  }
+
+  100% {
+    background-color: rgb(164, 164, 164);
+  }
+}

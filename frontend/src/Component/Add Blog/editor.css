@@ -1,0 +1,107 @@
+.contenai {
+  justify-content: center;
+
+}
+
+.contenai .p1 {
+  animation: wid 1.5s linear infinite, shimmer1 1.3s infinite;
+}
+
+.contenai .p2 {
+  animation: wid 1.7s linear infinite, shimmer1 1.3s infinite;
+}
+
+.contenai .p3 {
+  animation: wid 1.8s linear infinite, shimmer1 1.3s infinite;
+}
+
+.contenai .p4 {
+  animation: wid 1.9s linear infinite, shimmer1 1.3s infinite;
+}
+
+.contenai .p5 {
+  animation: wid 2s linear infinite, shimmer1 1.3s infinite;
+}
+
+@keyframes shimmer1 {
+  0% {
+    background-color: rgb(48, 63, 85);
+  }
+
+  25% {
+    background-color: rgb(44, 58, 78);
+  }
+
+  50% {
+    background-color: rgb(39, 52, 70);
+  }
+
+  75% {
+    background-color: rgb(35, 46, 61);
+  }
+
+  100% {
+    background-color: rgb(31, 41, 55);
+  }
+}
+
+@keyframes wid {
+
+  0% {
+    width: 0%;
+  }
+
+  10% {
+    width: 10%;
+  }
+
+  20% {
+    width: 20%;
+  }
+
+  30% {
+    width: 30%;
+  }
+
+  40% {
+    width: 40%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  60% {
+    width: 60%;
+  }
+
+  70% {
+    width: 70%;
+  }
+
+  80% {
+    width: 80%;
+  }
+
+  90% {
+    width: 90%;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+}
+
+.aitext::-webkit-scrollbar{
+  width: 7px;
+}
+.aitext::-webkit-scrollbar-thumb{
+  /* width: 2px; */
+  border-radius: 20px;
+  background-color: rgb(58, 58, 58);
+}
+.aitext::-webkit-scrollbar-track{
+  width: 2px;
+  background-color: transparent;
+}

@@ -1,0 +1,38 @@
+/* Style the scrollbar track */
+.homemain::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.homemain::-webkit-scrollbar-thumb {
+  background-color: rgb(138, 138, 138);
+  border-radius: 20px;
+}
+
+/* Style the scrollbar itself */
+.homemain::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar{
+  scrollbar-width: none;
+}
+
+.hero h1,.hero button{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+.hero .show-section{
+  opacity: 1;
+  transform: translateY(0);
+}
+.featured h2,.featured .destination,.discover h2,.articles h2,.articles .post{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+.featured .show-section,.discover .show-section,.articles .show-section{
+  opacity: 1;
+  transform: translateY(0);
+}

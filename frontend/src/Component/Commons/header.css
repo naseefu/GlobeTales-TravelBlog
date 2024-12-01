@@ -1,0 +1,12 @@
+.header{
+  animation: heads 2s ease forwards;
+}
+
+@keyframes heads {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
